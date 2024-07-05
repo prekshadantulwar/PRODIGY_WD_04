@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer | Designer | Creator</p>
+        <button class="cta">Explore</button>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate web developer with a strong background in Java, Python, JavaScript, HTML, and CSS. With a keen eye for design and a love for coding, I specialize in creating dynamic and responsive websites. My journey in web development began with a curiosity for how websites work, and it has since evolved into a full-fledged career that I love.</p>
+        
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="images/project 1.png" alt="Project 1">
+            <div class="overlay">
+                <h3>Project 1</h3>
+                <p>FD Calculator</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project 2.png" alt="Project 2">
+            <div class="overlay">
+                <h3>Project 2</h3>
+                <p>Expense Tracker</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project 3.png" alt="Project 3">
+            <div class="overlay">
+                <h3>Project 3</h3>
+                <p>Digital Clock</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project 4.png" alt="Project 4">
+            <div class="overlay">
+                <h3>Project 4</h3>
+                <p>Vowel Checker</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project 5.png" alt="Project 5">
+            <div class="overlay">
+                <h3>Project 5</h3>
+                <p>Age Calculator</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
